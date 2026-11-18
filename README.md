@@ -115,6 +115,13 @@ category you already understand, that you could finish tonight.
 Finishing teaches you the submission machinery, and the machinery is
 the same for a $250 contest as for a $1,600 one.
 
+One more filter that saves real grief: open the contest's kit
+before you commit to it, and check its prerequisites page. A few
+contests need a particular piece of software, an account on another
+service, or a machine of a particular kind. Discovering that on
+page one of the kit is a shrug; discovering it after three hours
+of building is a story you tell strangers to make them wince.
+
 ## Step 3: Fetch the kit and read RULES.txt first
 
 Every contest hands out a kit — a download containing its rules,
@@ -265,6 +272,78 @@ to the paid places. That is a scouting report money cannot buy,
 because you already paid for it in the only currency that counts
 here: one finished attempt.
 
+## A realistic first-day timeline
+
+People ask how long a first entry actually takes. Here is the shape
+of an honest first evening, from my own runs at this:
+
+- **First 20 minutes:** register, finish the profile, connect
+  GitHub and a wallet, connect the agent with `login`. All admin,
+  all done exactly once.
+- **Next 30 minutes:** read contest pages, shortlist two, fetch
+  both kits, and read both `RULES.txt` files properly. Pick the
+  one whose deliverable you understand completely.
+- **The building hour:** one fresh session, the agent writing, you
+  steering and reading what it produces. Expect the first version
+  to be wrong in an interesting way; that is normal.
+- **The polishing half hour:** run the entry, improve the weakest
+  part, and revise at least one file properly. This second pass is
+  both good practice and something the transcript gate looks for.
+- **The last 20 minutes:** bundle, run the local check, fix what
+  it names, submit, and write the submission id down somewhere you
+  will find it again.
+
+Total: roughly two and a half hours, most of it learning that you
+never have to learn twice. Your second entry will take half that,
+because the admin third of the evening simply disappears.
+
+## Sharing your own guide and link, once you have one
+
+Sooner or later you will want other people to arrive through your
+link — perhaps because, like this page, your guide is itself an
+entry in a referral contest. A few principles that keep that
+honest and effective:
+
+- Put the link where a reader has just understood what the site
+  is. A referral offered before the explanation feels like a toll
+  booth; offered after it, it feels like a door.
+- Say plainly that it is your link and what using it does. Readers
+  are generous when nobody is being sneaky with them.
+- Share the guide, not the bare link. A page that teaches something
+  travels on its own merits, and every reader it helps is a person
+  who might register while your code is the one their browser
+  holds.
+- Count only real people. The verification behind referral rewards
+  ignores accounts that never take part, clusters of signups from
+  one network, and the referrer's own extra accounts. Manufactured
+  signups are not a strategy; they are a way to score an honest
+  zero.
+- Remember the tie-break nobody expects: in referral contests,
+  entries tied on verified signups are ordered by which final
+  submission arrived first. Submitting a good guide early is worth
+  real places, so do not sit on a finished entry polishing commas.
+
+## A tiny glossary, because the site will not define these
+
+- **Kit:** the per-contest download holding the rules, starter
+  files and the command line tool. One contest, one kit, no
+  substitutes.
+- **Bundle:** the archive the kit builds from your agent sessions,
+  carrying the transcripts, a run record and your instruction
+  files, with secrets stripped out.
+- **Transcript gate:** the set of pass-or-fail checks that compare
+  your entry's files against those sessions, to confirm your own
+  agent built the entry, in the window.
+- **Escrow:** the on-chain account on Solana where a contest's
+  whole prize pot waits from the moment the contest opens until
+  winners claim it.
+- **Claim:** the act of moving a prize you placed for out of
+  escrow to your own wallet, after the result is posted and a
+  screening has cleared it.
+- **Final entry:** your most recent submission before the
+  deadline. Earlier ones are history; later pushes to the same
+  repository change nothing unless you submit again.
+
 ## Mistakes that quietly kill good entries
 
 - Building in a session that started before the contest opened.
@@ -310,6 +389,20 @@ in most contests — a recorded session is worth having.
 Largely, yes. Give it the kit, the rules file and a time budget,
 and check in at the submission step. The one part that is yours
 alone is approving the account connection in Step 3.
+
+**I submitted and got rejected. Is my contest over?**
+No. A rejection names the failed checks and their fixes, and you
+may submit again until the deadline, inside the daily allowance.
+Read the named check, fix exactly that, re-run the local check so
+you do not spend an attempt on a second, hidden problem, and send
+the entry in again.
+
+**My repository is public. Is my entry public too?**
+For repository contests, largely yes by design: anyone can read
+the guide or code you entered, and contests that display entries
+link back to the repository. The transcripts, by contrast, are
+shown only to you and the organisers. Write the repository as
+something you are proud to have strangers read.
 
 **What do referrals actually pay?**
 Your own link pays a small USDC reward when somebody registers
